@@ -253,17 +253,21 @@
 .catalogue {
     position: relative;
     float: left;
-    /*left: -716px;*/
+    left: -716px;
 }
 
-.bg-catalogue {
+.bg-catalogue, .bg-tires {
     position: relative;
     float: left;
     width: 100%;
 }
 
 .bg-catalogue {
-   /* overflow: hidden;*/
+    overflow: hidden;
+}
+
+.bg-tires {
+    left: 190px;
 }
 
 .catalogue {
@@ -316,4 +320,81 @@
     font-size: 14px;
     font-style: italic;
     border-bottom: 2px solid #486580;
+}
+
+.bus-content {
+    width: 504px;
+    display: flex;
+    margin-top: 2px;
+    padding: 17px 14px 5px 8px;
+    background: #e5e7e8;
+    background: linear-gradient(to bottom, #e5e7e8 0%, #93a7b0 100%);
+    border-radius: 3px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.bus-content a {
+    width: 140px;
+    display: inline-block;
+    margin-bottom: 26px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.bus-content h1 {
+    display: block;
+    font-family: 'Lucida Sans Unicode', Lucida;
+    font-size: 14.59px;
+    font-weight: bold;
+    color: #206988;
+    transform: scale(1.05, 1.05);
+}
+
+.bus-content h2 {
+    display: block;
+    margin-left: 3px;
+    font-family: 'Lucida Sans Unicode', Lucida;
+    font-size: 12.27px;
+    color: #1f2528;
+    transform: scale(1.04, 1.04);
+}
+
+.tire-price {
+    margin-top: 4px;
+    margin-left: 15px;
+    margin-right: 5px;
+    font-family: 'ArialMT';
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    color: #114165;
+    transform: scale(1.05, 1.05);
+}
+
+.grn {
+    font-size: 12px;
+}
+.pic {
+    display: inline-block;
+    width: 138px;
+    height: 128px;
+    border-radius: 8px;
+    border-top: 1px solid #b0b9bc;
+    border-right: 1px solid #ced4d6;
+    border-bottom: 1px solid #a7b1b4;
+    border-left: 1px solid #bdc6c8;
+    box-shadow: 0 1px 0 0 #b0b9bc inset, -1px 0 0 0 #bfc6c8 inset, 
+                0 -1px 0 0 #f9fafa inset, 1px 0 0 0 #cfd4d6 inset;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.bus-content img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    vertical-align: middle;
 }
