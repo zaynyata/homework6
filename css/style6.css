@@ -253,13 +253,13 @@
 .catalogue {
     position: relative;
     float: left;
-    left: -716px;
 }
 
-.bg-catalogue, .bg-tires {
+.bg-catalogue, .bg-tires, bg-brands {
     position: relative;
     float: left;
     width: 100%;
+    margin-top: 100px;
 }
 
 .bg-catalogue {
@@ -268,6 +268,11 @@
 
 .bg-tires {
     left: 190px;
+}
+
+.bg-brands {
+    left: 526px;
+    background-color: #fff;
 }
 
 .catalogue {
@@ -376,6 +381,7 @@
 .grn {
     font-size: 12px;
 }
+
 .pic {
     display: inline-block;
     width: 138px;
@@ -385,11 +391,11 @@
     border-right: 1px solid #ced4d6;
     border-bottom: 1px solid #a7b1b4;
     border-left: 1px solid #bdc6c8;
-    box-shadow: 0 1px 0 0 #b0b9bc inset, -1px 0 0 0 #bfc6c8 inset, 
-                0 -1px 0 0 #f9fafa inset, 1px 0 0 0 #cfd4d6 inset;
+    box-shadow: 0 1px 0 0 #b0b9bc inset, -1px 0 0 0 #bfc6c8 inset, 0 -1px 0 0 #f9fafa inset, 1px 0 0 0 #cfd4d6 inset;
     background-color: #fff;
     vertical-align: middle;
 }
+
 .bus-content img {
     display: block;
     margin: 0 auto;
@@ -397,4 +403,202 @@
     margin-bottom: 5px;
     margin-left: 30px;
     vertical-align: middle;
+}
+
+.goodyear h1 {
+    margin-right: 2px;
+}
+
+.goodyear h2 {
+    transform: scale(1.04, 1.04);
+}
+
+.goodyear img {
+    margin-top: 6px;
+}
+
+.tires-content .tire_3rd-row {
+    margin-top: 1px;
+    margin-bottom: 25px;
+}
+
+.nokian h1 {
+    margin-left: 2px;
+}
+
+.nokian img {
+    margin-left: 33px;
+}
+
+.hankook h1 {
+    margin-left: 3px;
+}
+
+.hankook h2 {
+    margin-right: 4px;
+}
+
+.hankook img {
+    margin-left: 28px;
+}
+
+.brands {
+    width: 183px;
+    margin-left: 9px;
+    font-family: "Lucida Sans Unicode", Lucida;
+    font-size: 12.73px;
+    color: #114165;
+}
+
+.brand-title, .brand-tires-title, .brand-discs-title {
+    height: 24px;
+    margin-top: 4px;
+    padding: 1px 0 0 2px;
+    line-height: 24px;
+    border: 1px solid #8b979c;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.brand-title {
+    margin-bottom: 14px;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+
+.brand-title img {
+    margin: -1px 0 0 2px;
+}
+
+.brand-title span {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+.brand-tires-title, .brand-discs-title {
+    width: 132px;
+    height: 25px;
+    margin: 4px 0 0 15px;
+    border-radius: 11px;
+    line-height: 27px;
+    font-size: 14px;
+}
+
+.brand-discs-title {
+    width: 133px;
+}
+
+.brand-tires-title img {
+    margin-left: 2px;
+}
+
+.brand-discs-title img {
+    margin-left: 0;
+    transform: scale(.9, 1);
+}
+
+.brand-tires-title span {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.brand-discs-title span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.brand span {
+    margin-left: 3px;
+}
+
+.brands a {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: -4px;
+    line-height: 15px;
+    text-decoration: 0;
+    color: inherit;
+}
+
+.brand-tires-names {
+    list-style-image: url('../img/bullet.png');
+    margin: -5px 0 0 52px;
+}
+
+.input-checkbox {
+    display: none;
+}
+
+.brands > div {
+    margin: 7px 0 11px 26px;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+}
+
+.checkbox-style {
+    display: inline-block;
+    width: 6px;
+    height: 7px;
+    border-top: 1px solid #1c4360;
+    border-right: 1px solid #345b79;
+    border-bottom: 1px solid #849bab;
+    border-left: 1px solid #374e5f;
+    background-color: #fff;
+    box-shadow: 0 -2px 0 -1px #cfd9e0, 2px 0 0 -1px #d5dde4, 0 2px 0 -1px #809aad, -2px 0 0 -1px #819aad, 1px 2px 1px -1px #838383 inset, 2px 1px 1px -1px #a2a2a2 inset;
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 0 0 1px;
+    line-height: 7px;
+}
+
+.brand-discs-title {
+    margin: 15px 0 9px 14px;
+}
+
+.checkbox-label {
+    display: inline-block;
+    padding: 2px 0 0 10px;
+    vertical-align: top;
+}
+
+.input-checkbox:checked + .checkbox-style {
+    color: #114165;
+}
+
+.chebox-tires {
+    display: block;
+    margin-left: 20px;
+}
+
+.chebox-tires input {
+    border-color: rgb(17, 65, 101);
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.brand-tires-names li {
+    margin-top: 6px;
+    line-height: 20px;
+}
+
+.brand-submit {
+    /*display: block;*/
+    width: 82px;
+    height: 27px;
+    margin: 10px 0 0 24px;
+    border: 1px solid rgb(167, 171, 174);
+    border-radius: 11px;
+    background-image: -moz-linear-gradient(-90deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(15, 58, 94) 85%, rgb(12, 50, 86) 100%);
+    background-image: -webkit-linear-gradient(-90deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(15, 58, 94) 85%, rgb(12, 50, 86) 100%);
+    background-image: -ms-linear-gradient(-90deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(15, 58, 94) 85%, rgb(12, 50, 86) 100%);
+    box-shadow: 3px 5px 4px -3px #bec0c1;
+    color: #e5e9ea;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: .5px;
 }
