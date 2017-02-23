@@ -256,7 +256,7 @@
 }
 
 .bg-catalogue, .bg-tires, bg-brands {
-    position: relative;
+    /*  position: relative;*/
     float: left;
     width: 100%;
     margin-top: 100px;
@@ -283,6 +283,21 @@
     color: #114165;
 }
 
+.catalogue-title, .bus-title {
+    height: 24px;
+    margin-top: 6px;
+    padding: 1px 0 0 2px;
+    line-height: 24px;
+    border: 1px solid #8b979c;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.catalogue-title {
+    margin-bottom: 13px;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, .75);
+}
+
 .bus-title {
     width: 146px;
     height: 25px;
@@ -300,14 +315,17 @@
     margin-left: 1px;
 }
 
-.bus-names {
-    list-style-image: url('../img/bullet.png');
+.bus-name {
+    list-style-image: url('../img/raund.png');
     margin: -5px 0 0 52px;
 }
 
-.bus-names li {
+.bus-name li {
     margin-top: 6px;
     line-height: 20px;
+}
+.bus-name li:hover {
+    
 }
 
 .catalogue a {
@@ -337,6 +355,7 @@
     border-radius: 3px;
     justify-content: space-around;
     flex-flow: row wrap;
+    float: left;
 }
 
 .bus-content a {
@@ -377,6 +396,7 @@
     color: #114165;
     transform: scale(1.05, 1.05);
 }
+
 
 .grn {
     font-size: 12px;
@@ -448,6 +468,7 @@
     font-family: "Lucida Sans Unicode", Lucida;
     font-size: 12.73px;
     color: #114165;
+    float: left;
 }
 
 .brand-title, .brand-tires-title, .brand-discs-title {
@@ -518,11 +539,6 @@
     line-height: 15px;
     text-decoration: 0;
     color: inherit;
-}
-
-.brand-tires-names {
-    list-style-image: url('../img/bullet.png');
-    margin: -5px 0 0 52px;
 }
 
 .input-checkbox {
@@ -601,4 +617,114 @@
     font-size: 11px;
     line-height: 11px;
     letter-spacing: .5px;
+}
+
+.tire-brands {
+    text-align: center;
+}
+
+.tire-brands a {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.toyo {
+    margin: 42px 4px 0 7px;
+}
+
+.bridgestone {
+    margin: 42px 4px 0;
+}
+
+.continental {
+    margin: 42px 7px 0 5px;
+}
+
+.cooper {
+    margin: 41px 4px 0;
+}
+
+.avon {
+    margin: 43px 4px 0;
+}
+
+.tirefactory {
+    margin: 38px 5px 0;
+}
+
+.pirelli {
+    margin: 43px 4px 0;
+}
+
+.dunlop {
+    margin: 43px 7px 0;
+}
+
+footer {
+    margin: 0 auto;
+    width: 910px;
+    height: 99px;
+    margin-top: 25px;
+    background-color: #213a4d;
+    text-align: center;
+}
+
+.bottom-menu {
+    padding-top: 9px;
+    text-align: center;
+}
+
+.bottom-menu li {
+    display: inline-block;
+    border-right: 1px solid #7a878f;
+    box-shadow: 1px 0 0 0 #8d989f;
+    font-size: 0;
+}
+
+.bottom-menu li:nth-child(1) {
+    padding: 0 11px 0 6px;
+}
+
+.bottom-menu li:nth-child(2) {
+    padding: 0 11px 0 9px;
+}
+
+.bottom-menu li:nth-child(3) {
+    padding: 0 11px 0 9px;
+}
+
+.bottom-menu li:last-child {
+    padding-left: 13px;
+    border-right: 0;
+    box-shadow: none;
+}
+
+.bottom-menu a {
+    /*margin: 0 10px;*/
+    line-height: 11px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: .3px;
+    color: #bec6c9;
+}
+
+.bottom-menu a:hover {
+    color: #52abcb;
+}
+
+.copyright {
+    display: inline-block;
+    margin-top: 15px;
+    font-family: Arial;
+    font-size: 10px;
+    color: #754542;
+    font-weight: bold;
+    transform: scale(1, .9);
+}
+
+.copyright span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 8px;
 }
