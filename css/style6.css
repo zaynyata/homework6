@@ -255,7 +255,7 @@
     float: left;
 }
 
-.bg-catalogue, .bg-tires, bg-brands {
+.bg-catalogue, .bg-tires, .bg-brands {
     /*  position: relative;*/
     float: left;
     width: 100%;
@@ -282,6 +282,7 @@
     font-size: 12.73px;
     color: #114165;
 }
+
 
 .catalogue-title, .bus-title {
     height: 24px;
@@ -324,9 +325,6 @@
     margin-top: 6px;
     line-height: 20px;
 }
-.bus-name li:hover {
-    
-}
 
 .catalogue a {
     display: inline-block;
@@ -343,6 +341,7 @@
     font-size: 14px;
     font-style: italic;
     border-bottom: 2px solid #486580;
+    cursor: auto;
 }
 
 .bus-content {
@@ -396,7 +395,6 @@
     color: #114165;
     transform: scale(1.05, 1.05);
 }
-
 
 .grn {
     font-size: 12px;
